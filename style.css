@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+#main {
+  margin: 20px;
+  color: white;
+  text-align: center;
+  background-color: darkslategrey;
+  border-radius: 5px;
+}
+
+#title {
+  font-size: 5rem;
+  margin: 0px;
+  font-family: Cormorant, Bellota, monospace, "Times New Roman";
+}
+.description {
+  font-size: 1.2rem;
+  margin: 0px 0px 20px 0px;
+  font-family: monospace, "Times New Roman";
+}
+#img-div {
+  margin: 20px;
+}
+.fig {
+  display: inline-block;
+  border: 1px solid white;
+  width: 30%;
+  margin: 0px 5% 0px 5%;
+  transition: 1s;
+}
+.figcap {
+  border-top: 1px solid white;
+  padding: 5px;
+  width: auto;
+  font-family: monospace, "Times New Roman";
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.story {
+  width: 60%;
+  text-align: left;
+  margin: auto;
+  font-family: monospace, "Times New Roman";
+  padding: 0px 20px 0px 20px;
+}
+.year {
+  font-weight: bold;
+}
+.story > li {
+  margin: 20px 0px 20px 0px;
+}
+.quote {
+  font-family: Bellota, Cormorant, monospace, "Times New Roman";
+  font-size: 3rem;
+  font-style: italic;
+  margin: 40px 0px 40px 0px;
+  padding: 0px 20px 0px 20px;
+}
+.closing {
+  font-family: monospace, "Times New Roman";
+  padding: 0px 20px 20px 20px;
+}
+#tribute-link {
+  font-weight: bold;
+  color: #8fbc8f;
+}
+#tribute-link:hover {
+  color: #228b22;
+}
+@media screen and (min-width: 710px) {
+  .fig:hover {
+    box-shadow: 0px 0px 10px 10px #1e3333;
+    width: 32%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .fig {
+    width: 100%;
+    margin: 0px 0px 5% 0px;
+  }
+  .story {
+    width: 80%;
+  }
+  .quote {
+    font-size: 2rem;
+  }
+}
